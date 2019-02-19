@@ -5,7 +5,7 @@ Visualizing "Meteorite Landings" using Brushing and Filtering
     <img src="/assets/example.png" alt="Meteorite Landings"/>
 </p>
 
-Here is a very simple (and inefficient) webapp for visualizing the classic NASA "Meteorite Landings" dataset by using D3 and the usual web development stack (HTML, Javascript and CSS). It uses brushing and filtering to make the visualization easier. There are a lot of improvements that could be done, such as adding a clustering algorithm and actually running this on the GPU. The app also allows you to filter by time of impact (see the timeline in the screenshot above). It was made for TNM048 "Information Visualization" (2016) course at Linköping University. I've also written a short report and presentation on the webapp:
+Here is a very simple (and inefficient) webapp for visualizing the classic NASA "Meteorite Landings" dataset by using D3 and the usual web development stack (HTML, Javascript and CSS). It uses brushing and filtering to make the visualization easier. There are a lot of improvements that could be done, such as adding a clustering algorithm and actually running this on the GPU. The app also allows you to filter by time of impact (see the timeline in the screenshot above). It was made for TNM048 "Information Visualization" (2016) course at Linköping University. I've also written a short "report" and presentation on it:
 
 * [*"Investigating Meteorite Landings with Filtering and Brushing"*](https://eriksvjansson.net/papers/imlbfg.pdf) by Erik S. V. Jansson (2016) for "Information Visualization"
 

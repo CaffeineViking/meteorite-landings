@@ -1,0 +1,56 @@
+html, body {margin: 0;}
+
+#full-display {
+    overflow:   hidden;
+    margin:    0 0 0 0;
+    position: absolute;
+    top: 0;  bottom: 0;
+    right: 0;  left: 0;
+    background:#A3CCFF;
+}
+
+.country-path {
+    fill: #EFEDE7;
+    stroke: #777;
+    stroke-opacity: 0.5;
+    stroke-dasharray: 2, 2;
+    stroke-linejoin: round;
+}
+
+.overlay:active { cursor: move; }
+.interface:hover { cursor: default; }
+.brush-selected  { opacity: 0.25; }
+.brush-unselected { cursor: crosshair;
+                    opacity: 0.25; }
+.brush-selected-move { cursor: ew-resize; }
+.brush-selected-left  { cursor: e-resize; }
+.brush-selected-right { cursor: w-resize; }
+
+svg text {
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.axis text { font-size: 12px; }
+.axis line { none; stroke: #000; }
+.point:hover { stroke-opacity: 1.0;
+               fill-opacity: 1.0;
+               cursor: pointer; }
+.point { stroke-opacity: 1.0;
+         fill-opacity: 0.6; }
+.legend { opacity: 0.50; }
+.legend-title { opacity: 0.5; font-size: 18px; }
+.legend-text { fill: #fff; font-size: 14px; }
+.legend-text-black { fill: #000; font-size: 14px; }
+.legend-circle { stroke-width: 2.0; opacity: 0.75; fill: #fff; }
+.legend-circle:hover { opacity: 1.0; cursor: pointer; }
+.legend-rect { stroke-width: 2.0; opacity: 0.75; }
+.legend-rect:hover { opacity: 1.0; cursor: pointer; }
+
+.point-tooltip { opacity: 0.0; pointer-events: none; }
+.brush-tooltip { opacity: 0.0; pointer-events: none; }
+.point-tooltip-title { fill: #fff; font-weight: bold; font-size: 18px; }
+.point-tooltip-text { fill: #fff; font-size: 14px; }

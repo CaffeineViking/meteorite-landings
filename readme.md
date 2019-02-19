@@ -1,5 +1,5 @@
-Visualizing Meteorite Landings using Brushing and Filtering
-==================
+Visualizing "Meteorite Landings" using Brushing and Filtering
+===========================================================
 
 <p align="center">
     <img src="/assets/example.png" alt="Meteorite Landings"/>

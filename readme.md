@@ -9,6 +9,11 @@ Here is a very simple (and inefficient) webapp for visualizing the classic NASA 
 
 * [*"Investigating Meteorite Landings with Filtering and Brushing"*](https://eriksvjansson.net/papers/imlbfg.pdf) by Erik S. V. Jansson (2016) for "Information Visualization"
 
+Running It
+----------
+
+Just open `index.html`. No need to open a `localhost` server or stuff like that as there is no node.js crap here (thank god).
+
 Interacting
 -----------
 
